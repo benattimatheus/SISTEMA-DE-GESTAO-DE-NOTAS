@@ -57,10 +57,10 @@ $aluno['situacao'] = definirSituacao($aluno);
 
 print_r($aluno);
 print_r(calcularMedia1($aluno));
-print_r(' ');
+print_r(PHP_EOL);
 print_r(calcularMedia2($aluno));
-print_r(' ');
+print_r(PHP_EOL);
 print_r(calcularMediaFinal($aluno));
-print_r(' ');
+print_r(PHP_EOL);
 print_r(definirSituacao($aluno));
 ?>
